@@ -1,0 +1,23 @@
+[project]
+name = "formulator-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Nour", email = "naoude@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.162.0",
+    "openai>=3.46.0",
+]
+
+[project.scripts]
+formulator-agent = "formulator_agent:main"
+
+[build-system]
+requires = ["uv_build>=0.12.22,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.pyright]
+extraPaths = []

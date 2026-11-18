@@ -1,0 +1,246 @@
+{
+  "output_type": "form",
+  "draft_title": "Doctoral History Program Candidate Screening",
+  "pages": [
+    {
+      "title": "Applicant Information",
+      "elements": [
+        {
+          "type": "question",
+          "el": {
+            "label": "First Name",
+            "validators": {
+              "required": true
+            },
+            "htmlType": "text"
+          },
+          "id": "3c5e4650-1e74-455d-a6c5-4066ed495814"
+        },
+        {
+          "type": "question",
+          "el": {
+            "label": "Last Name",
+            "validators": {
+              "required": true
+            },
+            "htmlType": "text"
+          },
+          "id": "c585de86-7905-4477-a5b4-d3cfd39e2f08"
+        },
+        {
+          "type": "question",
+          "el": {
+            "label": "Email Address",
+            "validators": {
+              "required": true
+            },
+            "htmlType": "text"
+          },
+          "id": "ce779a20-56da-4f3d-9ff2-4756983f97d8"
+        }
+      ],
+      "id": "d3467a52-5d69-49f8-bd09-ed9650babcdd"
+    },
+    {
+      "title": "Area of Expertise",
+      "elements": [
+        {
+          "type": "question",
+          "el": {
+            "label": "Primary Historical Geographic Region",
+            "validators": {
+              "required": true
+            },
+            "htmlType": "select",
+            "options": [
+              {
+                "label": "North America",
+                "value": "North America",
+                "id": "19251282-2c98-4092-a443-a2d5d228923f"
+              },
+              {
+                "label": "Europe",
+                "value": "Europe",
+                "id": "2e3792c5-59f6-40ff-8782-df038e6a53e2"
+              },
+              {
+                "label": "Latin America",
+                "value": "Latin America",
+                "id": "66a0b23e-7a0f-47a3-b5ac-193a7a097ac4"
+              },
+              {
+                "label": "Asia",
+                "value": "Asia",
+                "id": "262e4c3e-025f-41db-ae71-87bdc5c8d512"
+              },
+              {
+                "label": "Africa",
+                "value": "Africa",
+                "id": "6e64edd7-7804-46a8-bba6-f5e531765bc8"
+              },
+              {
+                "label": "Middle East",
+                "value": "Middle East",
+                "id": "25159f0b-f266-40c2-a6ba-84155e21ae1a"
+              },
+              {
+                "label": "Global / Transnational",
+                "value": "Global / Transnational",
+                "id": "becd0850-bf37-4dbf-b974-9158799ca63d"
+              },
+              {
+                "label": "Other",
+                "value": "Other",
+                "id": "6ebce02f-606b-46fe-b956-7f9b75982547"
+              }
+            ]
+          },
+          "id": "942cdc0e-9014-4ae3-bc22-61d55ca280fb"
+        },
+        {
+          "type": "question",
+          "el": {
+            "label": "Primary Historical Era",
+            "validators": {
+              "required": true
+            },
+            "htmlType": "select",
+            "options": [
+              {
+                "label": "Ancient",
+                "value": "Ancient",
+                "id": "fcb04502-5713-4499-88c9-fa7359c1e27a"
+              },
+              {
+                "label": "Medieval",
+                "value": "Medieval",
+                "id": "86cfd3e4-3d77-4a8f-8a89-0f31a134bc35"
+              },
+              {
+                "label": "Early Modern",
+                "value": "Early Modern",
+                "id": "726b9f35-621e-4b4b-98c1-d6386ab10dca"
+              },
+              {
+                "label": "Modern (19th-20th Century)",
+                "value": "Modern (19th-20th Century)",
+                "id": "5c9f4c07-3865-47e9-a134-3ad99ea14f30"
+              },
+              {
+                "label": "Contemporary",
+                "value": "Contemporary",
+                "id": "a1986395-ed5d-4892-a0f8-117bd5007e5d"
+              },
+              {
+                "label": "Other",
+                "value": "Other",
+                "id": "158b2ea7-5939-4010-9c94-387a0cf049ed"
+              }
+            ]
+          },
+          "id": "d0589fcf-f9f5-4b18-a682-cb70cc64fc72"
+        },
+        {
+          "type": "question",
+          "el": {
+            "label": "Thematic Focus",
+            "validators": {
+              "required": true
+            },
+            "htmlType": "checkbox",
+            "options": [
+              {
+                "label": "Political History",
+                "value": "Political History",
+                "id": "361cc456-c3ce-4af4-8a08-e285b60edb8d"
+              },
+              {
+                "label": "Social and Cultural History",
+                "value": "Social and Cultural History",
+                "id": "694ef61f-4df1-45c8-bfee-375d30296916"
+              },
+              {
+                "label": "Economic History",
+                "value": "Economic History",
+                "id": "78252cb6-b34f-4f7b-92c3-052d753a540b"
+              },
+              {
+                "label": "Intellectual History",
+                "value": "Intellectual History",
+                "id": "5d9c5831-4b62-49c3-aee1-ee3fd0192d59"
+              },
+              {
+                "label": "History of Science, Technology, and Medicine",
+                "value": "History of Science, Technology, and Medicine",
+                "id": "6acd7bcc-ec50-48e8-97b4-ef95cac85b94"
+              },
+              {
+                "label": "Gender and Sexuality",
+                "value": "Gender and Sexuality",
+                "id": "b7fba6a6-b5d1-4b56-8b2f-8805205d3fc8"
+              },
+              {
+                "label": "Race and Empire",
+                "value": "Race and Empire",
+                "id": "95df308b-adbd-4a63-b757-d2ba5cb6901a"
+              },
+              {
+                "label": "Other",
+                "value": "Other",
+                "id": "ee085c6f-b1b0-4f8a-81c2-36fb490ff31a"
+              }
+            ]
+          },
+          "id": "71f827ca-a1dd-45e2-9205-dc0ea046f615"
+        }
+      ],
+      "id": "165f4acd-4134-4a89-ad5f-3098e5613a6c"
+    },
+    {
+      "title": "Research Statements and Essays",
+      "elements": [
+        {
+          "type": "note",
+          "el": {
+            "label": "Please provide thoughtful, detailed responses to the following challenging essay prompts."
+          },
+          "id": "0193d92b-5894-4a68-812c-823d8b8aefc8"
+        },
+        {
+          "type": "question",
+          "el": {
+            "label": "Describe your proposed doctoral research project. What specific historiographical gaps does it address, and what primary source archives do you intend to utilize?",
+            "validators": {
+              "required": true
+            },
+            "htmlType": "text"
+          },
+          "id": "dd91409f-09b7-41e2-9aef-d3ed7c733bf3"
+        },
+        {
+          "type": "question",
+          "el": {
+            "label": "How has your perspective on your subfield evolved in light of recent methodological shifts (e.g., the spatial turn, digital humanities, or transnational approaches)?",
+            "validators": {
+              "required": true
+            },
+            "htmlType": "text"
+          },
+          "id": "74dc6e9f-53ac-4feb-9eae-abc5bbe4d048"
+        },
+        {
+          "type": "question",
+          "el": {
+            "label": "Discuss a major theoretical or interpretive debate within your field of expertise. Which side of the debate do you find most compelling, and why?",
+            "validators": {
+              "required": true
+            },
+            "htmlType": "text"
+          },
+          "id": "b8b82532-aacb-4772-8cb7-5bd0709c537c"
+        }
+      ],
+      "id": "865f5753-f490-4fec-adb1-9819817cfa2b"
+    }
+  ]
+}

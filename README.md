@@ -1,6 +1,6 @@
-# Formulator Agent
+# Formulator AI
 
-**Formulator Agent** is an AI-powered system designed to generate structured, production-ready form schemas and surveys from natural language prompts for [Formulator](https://github.com/naouuud/formulator).
+**Formulator AI** is an AI-powered system designed to generate structured, production-ready form schemas from natural language prompts for [Formulator](https://github.com/naouuud/formulator).
 
 If a user's prompt is ambiguous or lacks necessary detail, the agent intelligently pauses form generation and initiates an interactive clarification loop before producing the final form.
 

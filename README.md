@@ -301,4 +301,4 @@ Structured completion activity is appended to `src/formulator_agent/agent/run_lo
 
 ## License
 
-This project is licensed under the terms defined in the repository.
+[Apache License 2.0](https://github.com/naouuud/formulator-agent/blob/main/LICENSE)
